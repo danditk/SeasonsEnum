@@ -6,8 +6,8 @@ using System.Threading.Tasks;
 
 namespace SeasonsEnum
 {
-    enum SeasonsEnum
+    enum SeasonsEnum : sbyte
     {
-        Wiosna = 3, Lato = 2, Jesień = -20, Zima = 403
+        Wiosna = 3, Lato = 2, Jesień = -20, Zima = 80
     }
 }

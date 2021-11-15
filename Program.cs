@@ -14,6 +14,8 @@ namespace SeasonsEnum
             Console.WriteLine(season);
             Console.WriteLine(SeasonsEnum.Zima);
             Console.WriteLine((int)season);
+
+            Console.WriteLine((SeasonsEnum)2);
             
             Console.ReadKey();
         }
