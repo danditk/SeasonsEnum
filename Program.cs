@@ -12,7 +12,9 @@ namespace SeasonsEnum
         {
             SeasonsEnum season = SeasonsEnum.Jesień;
             Console.WriteLine(season);
-
+            Console.WriteLine(SeasonsEnum.Zima);
+            Console.WriteLine((int)season);
+            
             Console.ReadKey();
         }
     }

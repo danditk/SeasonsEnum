@@ -8,6 +8,6 @@ namespace SeasonsEnum
 {
     enum SeasonsEnum
     {
-        Wiosna, Lato, Jesień, Zima
+        Wiosna = 3, Lato = 2, Jesień = -20, Zima = 403
     }
 }
