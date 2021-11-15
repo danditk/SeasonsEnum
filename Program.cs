@@ -10,6 +10,10 @@ namespace SeasonsEnum
     {
         static void Main(string[] args)
         {
+            SeasonsEnum season = SeasonsEnum.Jesień;
+            Console.WriteLine(season);
+
+            Console.ReadKey();
         }
     }
 }
